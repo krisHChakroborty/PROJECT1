@@ -124,7 +124,7 @@ html{
 
 hr{
     height: 3px;
-    color: rgb(182, 181, 181);
+    color: rgb(4, 4, 4);
 }
 
 
@@ -153,7 +153,10 @@ hr{
     }
 
 
-
+    hr{
+        height: 5px;
+        color: rgb(50, 39, 255);
+    }
 
     .header_inner_img {
         width: 222px;
