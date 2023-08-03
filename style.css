@@ -224,6 +224,19 @@ hr{
         /* border: 1.px solid rgb(33, 30, 255); */
       display: none;
     }
+
+    .header_wraper{
+        width: 100%;
+        background: rgba(0,0,0,0.7)url(https://e0.pxfuel.com/wallpapers/155/311/desktop-wallpaper-macbook-minimal-dark-laptop-office-vibes-night-programming-developer-k-electronics-office-laptop-black-office-thumbnail.jpg);
+        background-size: cover;
+        background-blend-mode: darken;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    /* .header_inner_img{
+        display: none;
+    } */
     
 }
 
