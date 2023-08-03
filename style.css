@@ -225,7 +225,7 @@ hr{
       display: none;
     }
 
-    .header_wraper{
+    body{
         width: 100%;
         background: rgba(0,0,0,0.7)url(https://e0.pxfuel.com/wallpapers/155/311/desktop-wallpaper-macbook-minimal-dark-laptop-office-vibes-night-programming-developer-k-electronics-office-laptop-black-office-thumbnail.jpg);
         background-size: cover;
@@ -234,9 +234,9 @@ hr{
         background-position: center;
     }
 
-    /* .header_inner_img{
-        display: none;
-    } */
+   .header_wraper{
+    background-color: transparent;
+   }
     
 }
 
