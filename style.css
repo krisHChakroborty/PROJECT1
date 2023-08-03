@@ -4,9 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+   
 
 }
-
+html{
+   
+}
 
 
 /* header section starts*/
@@ -95,6 +98,7 @@
     color: aliceblue;
     margin-top: 60px;
     box-shadow: -23px -17px 7px -7px #4a4a4a;
+
 }
 
 
@@ -192,8 +196,12 @@ hr{
     }
 
     .fixed_nav{
-      position: static;
-       background: none;
+      position: fixed;
+       
+       background-color: rgb(51, 143, 255);
+       width: 100%;
+       z-index: 1;
+       border-radius: 2%;
     }
 
     .second_sec_img1{
@@ -203,6 +211,19 @@ hr{
     .third_sec_img1{
         display: none;
     }
+
+    /* .header_wraper {
+       
+        height: 100%;
+        border-bottom-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+    } */
+
+    .kc_rounded_bg {
+        /* border: 1.px solid rgb(33, 30, 255); */
+      display: none;
+    }
+    
 }
 
 
