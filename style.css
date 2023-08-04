@@ -19,7 +19,7 @@ html{
 .header_wraper {
     /* background: rgba(0,0,0,0.8)url("https://careerkarma.com/blog/wp-content/uploads/2020/04/computer-1209641_1920.jpg");
     background-blend-mode: darken; */
-    background-color: rgb(200, 229, 255);
+    background-color: rgb(255, 255, 255);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,20 +139,24 @@ ul li a{
 }
 
 
-hr{
-    height: 3px;
+/* hr{
+    height: 50px;
     color: rgb(4, 4, 4);
+} */
+
+
+
+
+
+.footer_bg{
+    background-color: blue;
 }
 
 
 
-
-
-
-
-
-
-
+.inner_box1{
+    width: 29%;
+}
 
 
 
@@ -175,7 +179,7 @@ hr{
         top: -2px;
         border-right: 4px solid rgb(2, 2, 3);
         border-bottom: 4px solid rgb(0, 0, 0);
-        background-color:rgb(200, 229, 255);
+        background-color:rgb(255, 255, 255);
         border-radius: 10px;
         /* box-shadow: -23px 8px 35px -14px #0000eb; */
         left: -2px;
@@ -270,10 +274,12 @@ hr{
     } */ */
 
    .header_wraper{
-    background-color:white;
+    background-color:rgb(14, 10, 10);
     width: 1000px;
    }
-    
+   .inner_box1{
+    width: 108%;
+}
 }
 
 
@@ -305,6 +311,15 @@ hr{
 
     .third_sec_img2{
         display: none;
+    }
+
+    .inner_box_services {
+        margin-left: 118px;
+        /* margin-bottom: -23px; */
+        position: relative;
+        bottom: 50px;
+        box-shadow: none;
+        border: 1px solid white;
     }
 
 }
