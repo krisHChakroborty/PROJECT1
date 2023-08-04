@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    /* border: 1px solid red; */
    
 
 }
@@ -16,9 +17,12 @@ html{
 
 
 .header_wraper {
-    background-color: rgb(0, 0, 0);
+    background: rgba(0,0,0,0.8)url("https://careerkarma.com/blog/wp-content/uploads/2020/04/computer-1209641_1920.jpg");
+    background-blend-mode: darken;
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
+
 }
 
 
@@ -27,6 +31,7 @@ html{
     top: 0px;
     width: 100%;
     background-color: blue;
+    z-index: 1;
 }
 
 
@@ -51,6 +56,8 @@ html{
 
 .header_inner_img {
     width: 500px;
+    position: relative;
+    top: 27px;
 }
 
 
@@ -159,7 +166,9 @@ hr{
     }
 
     .header_inner_img {
+        background-color: black;
         width: 222px;
+        border: 1px solid rgb(255, 255, 255);
     }
 
 .text2{
@@ -230,17 +239,18 @@ hr{
       display: none;
     }
 
-    body{
+    /* body{
         width: 100%;
-        background: rgba(0,0,0,0.7)url(https://e0.pxfuel.com/wallpapers/155/311/desktop-wallpaper-macbook-minimal-dark-laptop-office-vibes-night-programming-developer-k-electronics-office-laptop-black-office-thumbnail.jpg);
-        background-size: cover;
+         background: rgba(0,0,0,0.7)url(https://e0.pxfuel.com/wallpapers/155/311/desktop-wallpaper-macbook-minimal-dark-laptop-office-vibes-night-programming-developer-k-electronics-office-laptop-black-office-thumbnail.jpg); */
+        /* background-size: cover;
         background-blend-mode: darken;
         background-attachment: fixed;
         background-position: center;
-    }
+    } */ */
 
    .header_wraper{
-    background-color: transparent;
+    background-color:white;
+    width: 1000px;
    }
     
 }
