@@ -55,9 +55,15 @@ html{
 }
 
 .header_inner_img {
-    width: 500px;
+    width: 414px;
     position: relative;
-    top: 27px;
+    top: 40px;
+    border-right: 8px solid rgb(4, 4, 201);
+
+    border-bottom: 8px solid rgb(4, 4, 201);
+    background-color: black;
+    border-radius: 10px;
+    /* box-shadow: -23px 8px 35px -14px #0000eb; */
 }
 
 
