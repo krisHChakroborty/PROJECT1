@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
-    /* border: 1px solid red; */
+    border: 1px solid red;
    
 
 }
@@ -276,7 +276,7 @@ ul li a{
 
    .header_wraper{
     background-color:rgb(14, 10, 10);
-    width: 1000px;
+    width: 100%;
    }
    .inner_box1{
     width: 108%;
