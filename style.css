@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
-    border: 1px solid red;
+    /* border: 1px solid red; */
    
 
 }
@@ -60,13 +60,12 @@ html{
 }
 
 .header_inner_img {
-    width: 363px;
+    width: 439px;
     position: relative;
-    top: 84px;
-    box-shadow: 4px 7px 28px 9px rgb(2, 1, 1);
-    background-color: rgb(200, 229, 255);
+    top: 20px;
     /* box-shadow: -23px 8px 35px -14px #0000eb; */
     left: 100px;
+    filter: drop-shadow(19px 10px 9px black);
 }
 
 .header_text {
@@ -158,6 +157,17 @@ ul li a{
 .inner_box1{
     width: 29%;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
